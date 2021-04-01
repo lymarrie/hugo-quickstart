@@ -13,7 +13,7 @@ enableEmoji = true
 
 [params]
 author = "Luc Yuki Marrie"
-description = "Luc Marrie's personal website"
+description = "Luc Yuki Marrie's personal website"
 keywords = "blog,developer,personal"
 info = "Full Stack DevOps and Vanilla Ice Cream Enthusiast"
 avatarURL = "luc.png"
