@@ -1,0 +1,26 @@
+{
+	"configVersion": "1",
+	"https": true,
+	"liveSite": true,
+	"locales": [
+		"en"
+	],
+	"templateVersion": 8,
+	"requireArtifactBuild": false,
+	"ci_config": {
+		"build_setup_cmd": "echo build setup",
+		"build_cmd": "ci/build.sh",
+		"serve_setup_cmd": "echo setup",
+		"serve_cmd": "npx hugo-cli server",
+		"artifactStructure": {
+			"assets": [
+				{
+					"root": "desktop"
+				},
+				{
+					"root": "public"
+				}
+            ]
+		}
+	}
+}
